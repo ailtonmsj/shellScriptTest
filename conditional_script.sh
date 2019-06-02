@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# to run
+# ./conditional_script.sh
+
 if [ -e /etc/shadow ]
 then
     echo "The shadow file exists and passwords are enabled"

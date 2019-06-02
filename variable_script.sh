@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# to run
+# ./variable_script.sh
+
 MESSAGE_1="Test Shell Script Variable"
 
 MESSAGE_2="Test Shell Script Variable Old Style"

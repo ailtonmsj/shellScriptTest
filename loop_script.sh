@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# execution example
+# to run
 # ./loop_script.sh "pig" "horse" "tiger" "man"
 
 for ANIMAL in $@
