@@ -14,3 +14,8 @@ do
     echo "Counting ${COUNTER}"
     let COUNTER+=1
 done
+
+for HEROES_NAME in "John" "Bruce" "Clark" "Diana" "Barry"
+do
+    echo $HEROES_NAME
+done
