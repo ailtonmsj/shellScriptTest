@@ -1,8 +1,9 @@
 #! /bin/bash
 
-# to run ./readLine.sh
+# to run 
+#./readLine.sh
 
-# to read a file line by line
+# To read a file line by line
 
 LINE_NUM=1
 
