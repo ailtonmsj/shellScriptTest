@@ -10,4 +10,4 @@ while read LINE
 do
     echo "${LINE_NUM}: ${LINE}"
     ((LINE_NUM++))
-done < variable_script.sh
+done < variable_script.sh # can be any file
