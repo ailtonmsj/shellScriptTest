@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# don't forget to chmod 755 to this fiule too
+# don't forget to chmod 755 to this file too
 
 PID_FILE="/tmp/sleepwalkingserver.pid"
 trap "rm $PID_FILE; exit" SIGHUP SIGINT SIGTERM

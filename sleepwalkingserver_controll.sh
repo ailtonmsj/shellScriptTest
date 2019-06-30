@@ -5,7 +5,7 @@
 
 case "$1" in
 "start" | "START")
-    ./sleep-walking-server &
+    ./aux_files/sleep-walking-server &
     ;;
 "stop" | "STOP")
     kill $(cat /tmp/sleepwalkingserver.pid)
